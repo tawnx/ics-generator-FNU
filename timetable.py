@@ -2,8 +2,8 @@ from hashlib import md5
 from datetime import datetime, timedelta
 
 # 只需修改此处的导入文件名
-from CQUPT import school    # 创建学校的对象并导入为 school
-from CQUPT import classes   # 创建课表数组并导入为 classes
+from FNU import school    # 创建学校的对象并导入为 school
+from FNU import classes   # 创建课表数组并导入为 classes
 
 classTime = [None, *school.classTime]
 weeks = [None]
